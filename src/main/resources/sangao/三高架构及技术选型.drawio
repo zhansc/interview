@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T06:59:36.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="trqls3fJyal9TfZA9XW2" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-30T07:10:54.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Y5JYTSKcXjVG4P10eH4y" version="20.5.1" type="github">
   <diagram id="wqAkM968b38m-hiAUqtR" name="第 1 页">
     <mxGraphModel dx="1073" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-287" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="1890" width="670" height="320" as="geometry" />
+          <mxGeometry x="1740" y="1890" width="670" height="330" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-215" target="8WJbZ5vt_U3ghZ7-BwTl-239">
           <mxGeometry relative="1" as="geometry" />
@@ -692,9 +692,6 @@
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-262" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;Dubbo和SpringCloud区别&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;dubbo是阿里巴巴开源的RPC调用框架，在没有人竞争的情况下是不会去做升级进化的，所有停更过一年&lt;/p&gt;&lt;p&gt;springcloud是在dubbo之后由apache基金会开源的一整套微服务解决方案，是生态&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;SpringCloud意义在哪里？解决了什么问题？&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;定义了一套微服务解决方案的标准，要使用spring生态就只能去实现和扩展这套标准&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1961" y="1500" width="309" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-288" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-263" target="8WJbZ5vt_U3ghZ7-BwTl-287">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-263" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;DevOps&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;多人协调开发、自动部署、集成测试、运维、持续交付&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1961" y="1780" width="150" height="110" as="geometry" />
         </mxCell>
@@ -707,7 +704,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-264" value="微服务1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="1930" width="86" height="60" as="geometry" />
+          <mxGeometry x="1763" y="1950" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-268" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-265" target="8WJbZ5vt_U3ghZ7-BwTl-267">
           <mxGeometry relative="1" as="geometry" />
@@ -724,7 +721,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-265" value="GitLab代码仓库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1926" y="1930" width="104" height="60" as="geometry" />
+          <mxGeometry x="1929" y="1950" width="104" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-270" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-267" target="8WJbZ5vt_U3ghZ7-BwTl-269">
           <mxGeometry relative="1" as="geometry" />
@@ -736,31 +733,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-267" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="1930" width="104" height="60" as="geometry" />
+          <mxGeometry x="2113" y="1950" width="104" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-272" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-269" target="8WJbZ5vt_U3ghZ7-BwTl-271">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-269" value="Harbor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="2280" y="1930" width="104" height="60" as="geometry" />
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-269" value="Harbor&lt;br&gt;镜像仓库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="2283" y="1950" width="104" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-271" value="K8S" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
-          <mxGeometry x="2280" y="2060" width="104" height="60" as="geometry" />
+          <mxGeometry x="2283" y="2080" width="104" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-273" value="CI/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="2132" y="1900" width="60" height="30" as="geometry" />
+          <mxGeometry x="2141" y="1920" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-276" value="业务服务器1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2024" y="2037" width="86" height="60" as="geometry" />
+          <mxGeometry x="2027" y="2057" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-277" value="业务服务器2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="2024" y="2120" width="86" height="60" as="geometry" />
+          <mxGeometry x="2027" y="2140" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-280" value="ssh脚本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="2154" y="2007" width="60" height="30" as="geometry" />
+          <mxGeometry x="2157" y="2027" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-286" value="mvn编译打包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1912" y="2007" width="80" height="30" as="geometry" />
+          <mxGeometry x="1915" y="2027" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-294" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-289" target="8WJbZ5vt_U3ghZ7-BwTl-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-289" value="&lt;font color=&quot;#000000&quot;&gt;webhook监听到Jenkins代码变动则会通知业务服务器去拉取最新代码进行构建部署&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1987" y="1910" width="162" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-296" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-295" target="8WJbZ5vt_U3ghZ7-BwTl-280">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-295" value="&lt;font color=&quot;#000000&quot;&gt;在业务服务器端生成RSA堆成密钥，配置在Jenkins上，通过这个密钥才能请求业务服务器发送ss脚本&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2141" y="2160" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-297" value="&lt;font color=&quot;#000000&quot;&gt;Jenkins将业务代码打包成镜像后推送到Hrabor镜像服务器上&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2248" y="1900" width="162" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
