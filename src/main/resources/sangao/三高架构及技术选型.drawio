@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T06:24:09.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AQ0ROwbsuiPTfhFBCgcv" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-30T06:43:23.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="q99HAHSeSESh37nnQjU_" version="20.5.1" type="github">
   <diagram id="wqAkM968b38m-hiAUqtR" name="第 1 页">
-    <mxGraphModel dx="1129" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -588,7 +588,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-217" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1210" width="140" height="310" as="geometry" />
+          <mxGeometry x="1430" y="1220" width="140" height="300" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-218" target="8WJbZ5vt_U3ghZ7-BwTl-222">
           <mxGeometry relative="1" as="geometry" />
@@ -611,8 +611,8 @@
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-221" value="微服务集群2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1461" y="1490" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-222" value="服务注册集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1286" y="1120" width="154" height="60" as="geometry" />
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-222" value="注册中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="1120" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-235" value="&lt;h1&gt;&lt;font style=&quot;font-weight: normal;&quot;&gt;服务调用过程&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1、微服务1想要调用微服务2&lt;/p&gt;&lt;p&gt;2、微服务1通过&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;注册中心&lt;/font&gt;&lt;/b&gt;接口获取微服务2的接口列表&lt;/p&gt;&lt;p&gt;3、通过&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;负载均衡算法&lt;/font&gt;&lt;/b&gt;选一个微服务2接口&lt;/p&gt;&lt;p&gt;4、通过指定的&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;RPC协议&lt;/font&gt;&lt;/b&gt;来调用选取的微服务2接口&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1544" width="204" height="210" as="geometry" />
@@ -623,11 +623,14 @@
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-237" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1370" y="1580" width="50" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-260" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-238" target="8WJbZ5vt_U3ghZ7-BwTl-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-238" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;A-&amp;gt;B-&amp;gt;C，如果服务调用流程非常慢，需要排查下是哪个服务导致的&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;链路追踪系统&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="1730" y="1510" width="150" height="220" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-239" value="链路追踪系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3399;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="1510" width="85" height="60" as="geometry" />
+          <mxGeometry x="1600" y="1510" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-242" target="8WJbZ5vt_U3ghZ7-BwTl-243">
           <mxGeometry relative="1" as="geometry" />
@@ -647,13 +650,13 @@
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-247" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;A-&amp;gt;B B-&amp;gt;C B服务超时，导致A服务也超时，B堵塞导致C也无法使用&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;超时机制&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="1961" y="1095" width="180" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-248" value="服务配置集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#006666;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-248" value="配置中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;curved=1;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-249" target="8WJbZ5vt_U3ghZ7-BwTl-222">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-249" value="接入服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-249" value="Gateway网关服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1020" width="790" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-252" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.697;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-251" target="8WJbZ5vt_U3ghZ7-BwTl-248">
@@ -665,7 +668,7 @@
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-254" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-253" target="8WJbZ5vt_U3ghZ7-BwTl-249">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-253" value="内部服务提供给外网使用，比如要开放API、其他三方、ERP等等调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-253" value="外部服务调用的时需要做登陆、鉴权、路由、黑白名单校验、限流降级熔断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1961" y="992" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-255" value="监控服务集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#33FF33;strokeColor=#23445d;" vertex="1" parent="1">
@@ -676,6 +679,15 @@
         </mxCell>
         <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-257" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;Notice&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;架构不是技术的堆砌&lt;br&gt;&lt;/p&gt;&lt;p&gt;有了需求才会有设计，才会推动技术革新&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1961" y="1330" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-259" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="8WJbZ5vt_U3ghZ7-BwTl-258" target="8WJbZ5vt_U3ghZ7-BwTl-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-258" value="内部服务提供给外网使用，比如要开放API、其他三方、ERP等等调用 --&amp;gt; 接入服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="992" width="120" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8WJbZ5vt_U3ghZ7-BwTl-262" value="&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;Dubbo和SpringCloud区别&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;dubbo是阿里巴巴开源的RPC调用框架，在没有人竞争的情况下是不会去做升级进化的，所有停更过一年&lt;/p&gt;&lt;p&gt;springcloud是在dubbo之后由apache基金会开源的一整套微服务解决方案，是生态&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#ff0000&quot;&gt;SpringCloud意义在哪里？解决了什么问题？&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;定义了一套微服务解决方案的标准，要使用spring生态就只能去实现和扩展这套标准&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1961" y="1500" width="309" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
